@@ -3,6 +3,6 @@
     add_theme_support( 'custom-logo' );
 
     function add_scripts_and_styles() {
-        wp_enqueue_style( 'payment', get_template_directory_uri() . '/assets/css/account.css');
+        wp_enqueue_style( 'account', get_template_directory_uri() . '/assets/css/account.css');
     }
 ?>
